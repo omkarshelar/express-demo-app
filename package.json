@@ -1,0 +1,31 @@
+{
+  "name": "express-demo-app",
+  "version": "1.0.0",
+  "description": "Sample demo application for express",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app",
+    "dev": "nodemon app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/omkarshelar/express-demo-app.git"
+  },
+  "author": "Omkar Shelar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/omkarshelar/express-demo-app/issues"
+  },
+  "homepage": "https://github.com/omkarshelar/express-demo-app#readme",
+  "dependencies": {
+    "connect-flash": "^0.1.1",
+    "express": "^4.17.1",
+    "express-messages": "^1.0.1",
+    "express-session": "^1.17.0",
+    "pug": "^2.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  }
+}

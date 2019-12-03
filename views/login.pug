@@ -1,0 +1,13 @@
+extends head.pug
+block content
+	div(class="form-group p-5 m-5 border rounded border-primary ml-auto mr-auto" style="width: 70%;")
+		h1(class="mb-5") Login
+		form(method="POST")
+			label Email : 
+			input(type="email" class="form-control" name="email")
+			br
+			label Password : 
+			input(type="password" class="form-control" name="password")
+			br
+			input(type="Submit" class="btn btn-primary")
+			
